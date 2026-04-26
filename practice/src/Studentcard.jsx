@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 
-const Studentcard = () => {
-  return (
-    <>
-    name: prachi
-    age: 19
-    course: btech
-    </>
-  )
-}
+// const Studentcard = () => {
+//   return (
+//     <>
+//     name: prachi
+//     age: 19
+//     course: btech
+//     </>
+//   )
+// }
 
-export default Studentcard
+// export default Studentcard

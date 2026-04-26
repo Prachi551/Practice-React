@@ -75,7 +75,11 @@
 
 // export default App
 
-import StudentCard from './StudentCard'
+import React from 'react'
+import IfElseComp from './ifelse.jsx'
+import Hooks from './Hooks.jsx' 
+import Timer from './Timer.jsx' 
+
 
 function App() {
   const students = [
@@ -87,9 +91,10 @@ function App() {
   return (
     <>
       <h1>Student List</h1>
-      <StudentCard />
-      <StudentCard />
-      <StudentCard />
+     
+      <IfElseComp />  
+      <Hooks />   
+      <Timer/>
     </>
   )
 }
