@@ -90,24 +90,24 @@
 
 
 // Timer.jsx — alag file banao
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 
-function Timer() {
-  const [seconds, setSeconds] = useState(0)
+// function Timer() {
+//   const [seconds, setSeconds] = useState(0)
 
-  useEffect(() => {
-    console.log("Timer SHURU! ▶️")
-    const timer = setInterval(() => {
-      setSeconds(prev => prev + 1)
-    }, 1000)
+//   useEffect(() => {
+//     console.log("Timer SHURU! ▶️")
+//     const timer = setInterval(() => {
+//       setSeconds(prev => prev + 1)
+//     }, 1000)
 
-    return () => {
-      console.log("Timer BAND! ⏹️") // ← yahan dekho!
-      clearInterval(timer)
-    }
-  }, [])
+//     return () => {
+//       console.log("Timer BAND! ⏹️") // ← yahan dekho!
+//       clearInterval(timer)
+//     }
+//   }, [])
 
-  return <h1>Timer: {seconds} seconds</h1>
-}
+//   return <h1>Timer: {seconds} seconds</h1>
+// }
 
-export default Timer 
+// export default Timer 
